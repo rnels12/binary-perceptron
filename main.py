@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-File name     : perceptron.py
+File name     : main.py
 Author        : Ryky Nelson
 Created Date  : 10/18/2021
 Python Version: Python 3.6.9
