@@ -7,10 +7,10 @@ Created Date  : 10/18/2021
 Python Version: Python 3.6.9
 
 Main function: 
-- get & process the data
-- separate the data into the training and test sets
-- call and feed training data to the perceptron
-- measure the training perceptron against (sparred) test data
+- gets & processes the data
+- separates the data into the training and test sets
+- calls & feeds training data to the perceptron
+- measures the training perceptron against (sparred) test data
 """
 
 import pandas as pd
@@ -42,4 +42,5 @@ if __name__ == "__main__":
     Ytest = test[['label0']].values.ravel()
 
     Ypred = per.predict(Xtest)
-    print( (Ytest == Ypred).sum() * 100 / len(Ytest) )
+    print( 'Accuracy = %3.1f%%' %\
+           ( (Ytest == Ypred).sum() * 100 / len(Ytest) ) )
