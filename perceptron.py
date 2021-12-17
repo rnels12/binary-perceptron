@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 
 """
-File name     : perceptron.py
-Author        : Ryky Nelson
-Created Date  : 10/18/2021
-Python Version: Python 3.6.9
+Created on 10/18/2021
+
+@author: Ryky nelson
 
 Preceptron class:
 trains the model, i.e. obtains the weight vector 
@@ -13,9 +12,6 @@ into two classes, i.e. the binary classification
 """
 
 import numpy as np
-
-__author__    = "Ryky Nelson"
-__copyright__ = "Copyright 2021"
 
 class perceptron:
     def __init__(self):
